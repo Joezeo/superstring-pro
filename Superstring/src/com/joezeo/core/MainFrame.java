@@ -6,6 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame implements ActionListener {
+    public MainFrame(){
+        handler = new Handler();
+    }
     /**
      * 中英文歌词文件加载状态
      */
@@ -16,6 +19,11 @@ public class MainFrame extends JFrame implements ActionListener {
      * 显示中英文歌词加载状态的lable
      */
     private JLabel label;
+
+    /**
+     * 功能处理器
+     */
+    private Handler handler;
 
     /**
      * 加载窗口
@@ -102,15 +110,29 @@ public class MainFrame extends JFrame implements ActionListener {
         return sb.toString();
     }
 
+    /**
+     * 刷新文本框
+     */
+    private void refleshLabel(){
+        label.setText(getLableTextContent());
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         String comd = e.getActionCommand();
         switch (comd){
             case "Merge two file":
+                handler.merge(this);
                 break;
             case "加载英文歌词文件":
+                handler.loadEnFile();
+                eLoad = "已加载";
+                refleshLabel();
                 break;
             case "加载中文歌词文件":
+                handler.loadCnFile();
+                cLoad = "已加载";
+                refleshLabel();
                 break;
         }
     }
