@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a4614e9-3bd7-416f-b453-263203c7acce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Superstring/src/com/joezeo/core/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid10436.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hs_err_pid872.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/replay_pid10436.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Superstring/com/joezeo/core/Handler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Superstring/src/com/joezeo/core/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/Superstring/src/com/joezeo/core/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Superstring/com/joezeo/core/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Superstring/com/joezeo/core/MainFrame.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,14 +21,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Superstring/src/com/joezeo/core/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+            <state relative-caret-position="208">
+              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
               <folding>
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#419#420#0" expanded="true" />
                 <element signature="e#458#459#0" expanded="true" />
                 <element signature="method#merge#0;class#Handler#0" />
+                <element signature="method#doFileChooser#0;class#Handler#0" />
                 <element signature="method#delBlankLine#0;class#Handler#0" />
               </folding>
             </state>
@@ -193,7 +190,7 @@
       <updated>1564193684449</updated>
       <workItem from="1564193686165" duration="748000" />
       <workItem from="1564194449592" duration="8975000" />
-      <workItem from="1564223156288" duration="932000" />
+      <workItem from="1564223156288" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="完成桌面应用布局样式">
       <created>1564201940238</created>
@@ -202,17 +199,23 @@
       <option name="project" value="LOCAL" />
       <updated>1564201940238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成合并功能 version 1.0完成">
+      <created>1564224338742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564224338742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10655000" />
+    <option name="totallyTimeSpent" value="10909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -221,7 +224,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -248,7 +251,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成桌面应用布局样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成桌面应用布局样式" />
+    <MESSAGE value="完成合并功能 version 1.0完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成合并功能 version 1.0完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Superstring/src/com/joezeo/core/Controler.java">
@@ -286,14 +290,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Superstring/src/com/joezeo/core/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+        <state relative-caret-position="208">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#458#459#0" expanded="true" />
             <element signature="method#merge#0;class#Handler#0" />
+            <element signature="method#doFileChooser#0;class#Handler#0" />
             <element signature="method#delBlankLine#0;class#Handler#0" />
           </folding>
         </state>
