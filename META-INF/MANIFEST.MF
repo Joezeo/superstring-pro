@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com.joezeo.core.Controler
+Main-Class: com.joezeo.core.Controler
+

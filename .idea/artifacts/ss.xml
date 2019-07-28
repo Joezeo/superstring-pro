@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ss">
+    <output-path>E:/油管视频/Superstring Pro</output-path>
+    <root id="archive" name="ss.jar">
+      <element id="module-output" name="Superstring" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
