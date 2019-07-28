@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="superstring">
+    <output-path>E:/油管视频</output-path>
+    <root id="archive" name="superstring.jar">
+      <element id="module-output" name="Superstring" />
+    </root>
+  </artifact>
+</component>
