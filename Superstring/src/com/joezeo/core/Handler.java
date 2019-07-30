@@ -112,6 +112,7 @@ public class Handler {
         chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
         chooser.showDialog(new JLabel(), "选择");
         chooser.setCurrentDirectory(new File("E:/"));
+        chooser.setFont(new java.awt.Font("宋体", 0, 24));
         return chooser.getSelectedFile();
     }
 
