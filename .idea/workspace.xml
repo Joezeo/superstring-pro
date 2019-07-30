@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Superstring/src/com/joezeo/core/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="219">
+              <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
               <folding>
                 <element signature="e#317#318#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
@@ -33,7 +33,6 @@
                 <element signature="e#461#462#0" expanded="true" />
                 <element signature="method#merge#0;class#Handler#0" />
                 <element signature="e#679#1338#1" />
-                <element signature="method#doFileChooser#0;class#Handler#0" />
                 <element signature="method#delBlankLine#0;class#Handler#0" />
               </folding>
             </state>
@@ -196,7 +195,7 @@
       <workItem from="1564223156288" duration="1828000" />
       <workItem from="1564294408111" duration="2712000" />
       <workItem from="1564456550233" duration="1544000" />
-      <workItem from="1564458469177" duration="1227000" />
+      <workItem from="1564458469177" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="完成桌面应用布局样式">
       <created>1564201940238</created>
@@ -240,11 +239,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564458810724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="解决中文乱码问题">
+      <created>1564460756201</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564460756201</updated>
+    </task>
+    <task id="LOCAL-00008" summary="解决中文乱码问题">
+      <created>1564461016143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564461016143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17034000" />
+    <option name="totallyTimeSpent" value="17331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="100" y="-8" width="1400" height="824" extended-state="0" />
@@ -330,8 +343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Superstring/src/com/joezeo/core/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="219">
+          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
           <folding>
             <element signature="e#317#318#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
@@ -339,7 +352,6 @@
             <element signature="e#461#462#0" expanded="true" />
             <element signature="method#merge#0;class#Handler#0" />
             <element signature="e#679#1338#1" />
-            <element signature="method#doFileChooser#0;class#Handler#0" />
             <element signature="method#delBlankLine#0;class#Handler#0" />
           </folding>
         </state>
